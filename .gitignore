@@ -1,0 +1,10 @@
+# Build output, traces and model inputs are local: none of them belong in git.
+build/
+*.onnx
+*.mlir
+*.json
+*.data
+flame.svg
+pass-order.csv
+__pycache__/
+*.pyc
